@@ -1,0 +1,15 @@
+.venv/
+new-env/
+tf-metal-py311/
+metal-tf215/
+__pycache__/
+data/
+outputs/
+UNet.py
+UNet_infer.py
+deeppretrain.py
+deeplabv3.py
+deepinfer.py
+checkpoints/*.pth
+checkpoints/*.h5
+checkpoints/*.keras

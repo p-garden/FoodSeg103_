@@ -1,0 +1,8 @@
+tensorflow-macos>=2.15
+tensorflow-metal>=1.1
+keras>=3.0
+keras-hub>=0.15
+keras-cv>=0.8
+numpy
+matplotlib
+pillow
