@@ -27,7 +27,7 @@
 * **PSPNet**: Pyramid Pooling을 통해 크기 차이가 큰 재료도 잘 분리하고 전역적 맥락을 활용하지만, 세밀한 경계 처리 능력에 한계가 있었습니다.
 * **DeepLabv3+**: Atrous Convolution을 활용해 경계 처리 능력을 강화했으나, 데이터셋과 실험 세팅의 한계로 인해 경계 처리 능력이 약하게 나타났습니다.
 * **SegFormer**: Transformer 기반의 최신 모델로, 다른 모델들보다 가장 높은 성능(mIoU 0.3816, acc 0.7603)을 보이며 우수한 예측 능력을 증명했습니다.
-
+  
 #### FoodSeg103 리더보드
 다음은 FoodSeg103 프로젝트의 공식 리더보드에 본 프로젝트의 최종 모델인 SegFormer를 추가하여 정리한 표입니다.
 
@@ -55,6 +55,13 @@
 * **데이터 증강**: `Albumentations` 라이브러리를 활용하여 무작위 크기 자르기, 수평 뒤집기, 색상 및 흐림 변형 등 다양한 변형을 적용했습니다.
 
 이러한 개선을 통해 최종 모델의 성능은 **mIoU 0.43**, **mAcc 0.78**로 향상되었습니다.
+
+#### 외부 이미지 Infer 결과
+<img width="488" height="421" alt="스크린샷 2025-09-11 오후 8 13 45" src="https://github.com/user-attachments/assets/a4cc8fb9-7c26-4ebd-aa31-dd8b9aebf96f" />
+<br>
+<img width="480" height="137" alt="스크린샷 2025-09-11 오후 8 15 45" src="https://github.com/user-attachments/assets/319ea611-fd29-466c-9187-a6846c2ff3d3" />
+<br>
+<img width="480" height="132" alt="스크린샷 2025-09-11 오후 8 16 00" src="https://github.com/user-attachments/assets/dea2fc8c-f61b-4a5f-9b75-23409292aab3" />
 
 ### 5. 연구의 의의 및 시사점
 * **연구의 의의**: 픽셀 단위로 음식의 위치와 경계를 판별하는 것이 가능해져, 색상이나 형태가 유사한 음식도 구분할 수 있게 되었습니다. 이는 실생활과 밀접한 AI 응용 가능성을 보여줍니다.
