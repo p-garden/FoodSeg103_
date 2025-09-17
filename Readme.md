@@ -22,7 +22,7 @@ https://huggingface.co/datasets/EduardoPacheco/FoodSeg103
 | DeepLabV3+ | 0.1757 | 0.6648 |
 | PSPNet | 0.1902 | 0.6594 |
 | **SegFormer** | **0.3816** | **0.7603** |
-| **FiINAL SegFormer** | **0.4278** | **0.7873** |
+| **FiINAL SegFormer** | **0.4278** | **0.7873** |    
 
 * **UperNet**: PPM(Pyramid Pooling Module)과 FPN(Feature Pyramid Network) 구조를 활용해 전역 문맥과 지역 디테일을 동시에 반영하지만, 여러 클래스에 걸쳐 찍는 경향을 보였습니다.
 * **PSPNet**: Pyramid Pooling을 통해 크기 차이가 큰 재료도 잘 분리하고 전역적 맥락을 활용하지만, 세밀한 경계 처리 능력에 한계가 있었습니다.
